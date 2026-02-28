@@ -2,12 +2,95 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- ===== Basics ===== -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>linkinsurance</title>
+    <meta name="theme-color" content="#16a34a" />
+    <meta name="robots" content="index,follow" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- ===== Title & Description (SEO) ===== -->
+    <title>Link Insurance | Auto, Home, Life & Business Insurance in Houston, TX</title>
+    <meta
+      name="description"
+      content="Link Insurance helps Houston, TX families and businesses find the right coverage at the right price. Auto, Home, Renters, Life, and Commercial policies. Call +1 (346) 407-1258 for a free quote."
+    />
+    <meta
+      name="keywords"
+      content="Link Insurance, Houston insurance, auto insurance Houston, home insurance Houston, renters insurance Houston, life insurance Houston, commercial insurance Houston, general liability Houston, business insurance Houston"
+    />
+
+    <!-- ===== Canonical ===== -->
+    <!-- Replace with your real domain once live -->
+    <link rel="canonical" href="https://linkinsurance.com/" />
+
+    <!-- ===== Icons ===== -->
+    <!-- Recommended: replace /vite.svg with your own favicon files -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- ===== Open Graph (Facebook, iMessage, etc.) ===== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Link Insurance" />
+    <meta property="og:title" content="Link Insurance | Houston, TX" />
+    <meta
+      property="og:description"
+      content="Auto, Home, Life & Business insurance in Houston. Affordable coverage, excellent service. Call +1 (346) 407-1258 for a free quote."
+    />
+    <!-- Add this image to /public/og-image.jpg (1200x630 recommended) -->
+    <meta property="og:image" content="https://linkinsurance.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://linkinsurance.com/" />
+
+    <!-- ===== Twitter Card ===== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Link Insurance | Houston, TX" />
+    <meta
+      name="twitter:description"
+      content="Auto, Home, Life & Business insurance in Houston. Call +1 (346) 407-1258 for a free quote."
+    />
+    <meta name="twitter:image" content="https://linkinsurance.com/og-image.jpg" />
+
+    <!-- ===== Local SEO / Geo ===== -->
+    <meta name="geo.region" content="US-TX" />
+    <meta name="geo.placename" content="Houston" />
+
+    <!-- ===== Performance hints ===== -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- ===== Structured Data (Schema.org) ===== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "InsuranceAgency",
+        "name": "Link Insurance",
+        "url": "https://linkinsurance.com/",
+        "telephone": "+13464071258",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Houston",
+          "addressRegion": "TX",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Houston"
+          },
+          {
+            "@type": "State",
+            "name": "Texas"
+          }
+        ],
+        "sameAs": [],
+        "description": "Link Insurance helps Houston families and businesses find cost-effective insurance coverage including auto, home, renters, life, and commercial policies."
+      }
+    </script>
   </body>
 </html>
