@@ -21,7 +21,7 @@ export default function Hero() {
 
             {/* Large Logo */}
             <img
-              src="/link-logo.png"
+              src="/hero-logo.png"
               alt="Link Insurance"
               className="mx-auto mb-8 w-40 sm:w-56 lg:w-64"
             />

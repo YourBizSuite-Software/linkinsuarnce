@@ -8,7 +8,7 @@ export default function Footer() {
       {/* Top CTA band */}
       <div className="relative bg-black">
         <div className="absolute inset-0 opacity-60">
-          <img src="/footer-cta.jpg" alt="" className="h-full w-full object-cover" />
+          <img src="/hero.PNG" alt="" className="h-full w-full object-cover" />
         </div>
         <div className="relative mx-auto max-w-6xl px-4 py-20 text-center text-white">
           <h3 className="text-3xl font-extrabold sm:text-4xl">
