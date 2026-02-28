@@ -1,7 +1,7 @@
 const PHONE_DISPLAY = "+1 (346) 407-1258";
 const EMAIL_DISPLAY = "services@mylinkinsurance.com"
 const PHONE_TEL = "+13464071258";
-const EMAIL ="services@mylinkinsurance.com"
+const EMAIL = "services@mylinkinsurance.com"
 
 export default function Footer() {
   return (
@@ -65,7 +65,10 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href={`email:${EMAIL}`}>
+                  <a
+                    className="hover:text-slate-900"
+                    href={`mailto:${EMAIL}`}
+                  >
                     {EMAIL_DISPLAY}
                   </a>
                 </li>
