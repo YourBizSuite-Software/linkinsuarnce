@@ -1,4 +1,3 @@
-const PHONE_DISPLAY = "+1 (346) 407-1258";
 const PHONE_TEL = "+13464071258";
 
 export default function Header() {
@@ -32,13 +31,6 @@ export default function Header() {
 
           {/* Phone + CTA */}
           <div className="flex items-center gap-4">
-            <a
-              href={`tel:${PHONE_TEL}`}
-              className="hidden sm:inline text-sm text-white/70 transition hover:text-white"
-            >
-              {PHONE_DISPLAY}
-            </a>
-
             <a
               href={`tel:${PHONE_TEL}`}
               className="rounded-md bg-green-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-green-700"
