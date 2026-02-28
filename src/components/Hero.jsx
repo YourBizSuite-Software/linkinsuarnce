@@ -23,7 +23,7 @@ export default function Hero() {
             <img
               src="/hero-logo.png"
               alt="Link Insurance"
-              className="mx-auto mb-8 w-40 sm:w-56 lg:w-64"
+              className="mx-auto mb-8 w-64 sm:w-72 lg:w-80"
             />
 
             <h1 className="text-4xl font-extrabold leading-tight sm:text-6xl lg:text-7xl">
