@@ -65,7 +65,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href={`tel:${EMAIL}`}>
+                  <a className="hover:text-slate-900" href={`email:${EMAIL}`}>
                     {EMAIL_DISPLAY}
                   </a>
                 </li>
